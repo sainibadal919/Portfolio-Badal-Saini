@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration:none;
+    transition: all .3s;
+    scroll-behavior:smooth;
+    scrollbar-color: black;
+}
+body{
+    height:300vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: rgb(112, 109, 109);
+    /* background: linear-gradient(rgb(35, 39, 51),rgb(200, 137, 27)); */
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.header{
+    margin-top: 10px;
+    height: 100vh;
+    width: 90vw;
+    /* box-shadow: 10px 10px 5px rgb(25, 25, 25); */
+    /* border: 5px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* background-color:rgb(62, 60, 60); */
+}
+.header ul{
+    position: fixed;
+    top: 20px;
+}
+.header .navbar a{
+    color: white;
+}
+.header .navbar a:hover{
+    color: blue;
+}
+.navbar{
+    height: 15%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li{
+    margin: 20px;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.head{
+    font-size: 50px;
+}
+.info .about{
+    height: 95%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.header img{
+    height: 350px;
+    width: 210px;
+    border-bottom-left-radius: 40%;
+    /* border: 3px solid black; */
+    box-shadow: 10px 10px 5px black;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btns .hiremebtn{
+    font-size: 20px;
+    height: 50px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    margin: 50px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
+}
+a{
+    font-size: 22px;
+}
+a:hover{
+    /* background-color: rgb(108, 108, 229); */
+    color:black;
+    border-radius: 10%;
+}
+.cv{
+    font-size: 20px;
+    height: 50px;
+    width: 180px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
+    margin: 50px; 
+}
+.projectbtn{
+    font-size: 20px;
+    height: 50px;
+    width: 180px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
+    margin: 50px;
+}
+.description{
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+
+}
+.active{
+    width: 100px;
+    /* background-color: rgb(108, 108, 229); */
+    color: white;
+    border-radius: 5px;
+}
+#contact{
+    /* margin-bottom: -30px; */
+    height: 80vh;
+    width: 95vw;
+    display:flex;
+    margin-top: 150px;
+    padding-right: 30%;
+    /* box-shadow: 10px 10px 5px rgb(35, 33, 33); */
+
+    align-items: center;
+    justify-content: space-around;
+    /* background-color:rgb(62, 60, 60); */
+}
+
+#contact .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+    margin-top: 20px;
+    color: white;
+    width: 60vw;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    /* box-shadow: 10px 10px 5px rgb(36, 35, 35);
+
+    background-color: rgb(55, 54, 54); */
+}
+#contact h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.queryform{
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+    width: 80%;
+    /* align-items:; */
+    font-size: 20px;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+.inputs{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.footer{
+    height: 20vh;
+    width: 95vw;
+    
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgb(36, 35, 35);
+    background-color: rgb(62, 60, 60);
+}
+.footer h1{
+    font-size: 40px;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+     font-weight: 2000;
+     margin-bottom: 20px;
+}
+.footer ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer ul li a{
+    /* background-color: antiquewhite; */
+    color: black;
+    font-size: 40px;
+}
+.footer ul li a:hover{
+    color: white;
+}
+.inputs button{
+    color:black;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: rgb(89, 89, 168);
+}
+.inputs label,input{
+    margin: 5px;
+}
+.welcome{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    color: white;
+}
+#skills{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    width: 90vw;
+    margin-bottom: 100px;
+    /* margin-top: 100px; */
+    justify-content: space-around;
+}
+#skills h1{
+    color: black;
+    font-size: 50px;
+}
+.skillimages{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    justify-content: space-between;
+}
+.skillimages img{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 10px 10px 5px rgb(37, 35, 35);
+    /* border: 2px solid black; */
+}
+.skillimages img:hover{
+    transform: translate(0px,15px);
+}
+#message{
+    width: 200px;
+    height: 100px;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.container .project1,.project2,.project3,.project4{
+    height: 350px;
+    width: 250px;
+    margin: 20px;
+    /* border-bottom-right-radius: 30px; */
+    padding: 10px;
+    /* border: 5px solid black; */
+    font-size: 15px;
+    font-family: 'Roboto Mono', monospace;
+    background-color:gray;
+    box-shadow: 10px 10px 5px rgb(43, 42, 42);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#projects .headprojects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#projects .headprojects h1{
+    color: black;
+    width: 50%;
+    background-color: black;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 40px;
+   
+}
+.project1:hover{
+    background-color: rgb(25, 25, 25);
+    color: white;
+}.project2:hover{
+    color: white;
+    background-color: rgb(59, 58, 58);
+}.project3:hover{color: white;
+    background-color: rgb(54, 53, 53);
+}.project4:hover{color: white;
+    background-color: rgb(46, 45, 45);
+}.project5:hover{color: white;
+    background-color: rgb(34, 33, 33);
+}
+ hr{
+    border: 1px solid black;
+ 
+}
